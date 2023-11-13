@@ -15,7 +15,7 @@ from ultralytics import YOLO
 
 
 # Load a model
-model = YOLO(r"weights/best.pt")
+model = YOLO("weights/best.pt")
 
 
 def run():
